@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+body{
+  background-color:black;
+  color:white;
+}
+header{
+  padding-top:2rem;
+  background-color: #0B3D91;
+  height:7rem;
+}
+h1{
+  text-align:center;
+
+}
+img{
+  max-width: 80%;
+  max-height: 100%;
+}
+.pictureoftheday{
+  width:118.5rem;
+}
+.dateandcopyright{
+  display:flex;
+  justify-content: space-around;
+}
+.descriptionsection{
+  width:95rem;
+  text-align: center;
+  margin-left:11.75rem;
+}
