@@ -1,19 +1,19 @@
 import React from "react";
 import "./index.css";
-import styled, { keyframes } from 'styled-components'
+// import styled, { keyframes } from 'styled-components'
 
-const kf = keyframes`
-  50% {
-    transform: scale(0.8);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
-`
-const pictureoftheday = styled.div`
-animation: ${kf} 2s forwards;
-`
+// const kf = keyframes`
+//   50% {
+//     transform: scale(0.8);
+//   }
+//   100% {
+//     opacity: 1;
+//     transform: scale(1);
+//   }
+// `
+// const pictureoftheday = styled.div`
+// animation: ${kf} 2s forwards;
+// `
 
 
 function PictureSection(props){
